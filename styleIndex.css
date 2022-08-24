@@ -5,3 +5,21 @@
     --cor04: #EB6C84;
     --cor05: #9C0924;
 }
+
+
+/* TESTE */
+div.teste{
+    display: inline-block;
+    margin: 10px;
+    background-color: var(--cor05);
+    height: 220px;
+    width: 220px;
+}
+
+div.teste2{
+    background-color: var(--cor03);
+    display: block;
+    margin: 0px auto;
+    height: 300px;
+    width: 1216px;
+}
