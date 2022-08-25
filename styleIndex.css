@@ -1,5 +1,17 @@
 :root{
     --cor01: #9C9511;
+    --cor02: #02199c;
+    --cor03: #E8DC02;
+    --cor04: #EB6C84;
+    --cor05: #9c09249c;
+    --cor06: #acacac;
+    --cor07: #1AACE8;
+    --cor08: #9C0924;
+}
+
+/*
+:root{
+    --cor01: #9C9511;
     --cor02: #1AACE8;
     --cor03: #E8DC02;
     --cor04: #EB6C84;
@@ -7,6 +19,53 @@
     --cor06: #acacac;
     --cor07: #1AACE8;
 }
+CORES ORIGINAIS
+*/
+
+*{
+    margin: 0px;
+}
+
+/*----------------------- HEADER -----------------------*/
+
+header{
+    background-color: var(--cor02);
+    height: 300px;
+    color: white;
+}
+
+nav#navHeader{
+    padding-top: 20px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: -50px;
+    width: 600px;
+}
+
+nav#navHeader > a{
+    padding: 5px 10px;
+    background-color: var(--cor05);
+    margin: 0px 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+nav#navHeader > a:hover{
+    background-color: var(--cor08);
+}
+
+h1{
+    margin-top: 60px;
+    text-indent: 120px;
+}
+
+h2{
+    text-indent: 100px;
+    font-size: 48px;
+}
+
+/*----------------------- HEADER -----------------------*/
 
 /*------------------------ MAIN ------------------------*/
 
@@ -38,9 +97,9 @@ a.lugaresBrasil > img{
 }
 
 a.lugaresBrasil:hover{
-    border: 1px solid var(--cor05);
+    border: 1px solid var(--cor08);
     border-radius: 5px;
-    color: var(--cor05);
+    color: var(--cor08);
 }
 
 /* INTERNACIONAL */
@@ -71,9 +130,9 @@ a.lugaresInternacionais > img{
 }
 
 a.lugaresInternacionais:hover{
-    border: 1px solid var(--cor05);
+    border: 1px solid var(--cor08);
     border-radius: 5px;
-    color: var(--cor05);
+    color: var(--cor08);
 }
 
 /*------------------------ MAIN ------------------------*/
