@@ -1,0 +1,25 @@
+div{
+    display: block;
+    width: 550px;
+    margin: 0px auto;
+}
+
+div > h1{
+    text-align: center;
+}
+
+a{
+    display: block;
+    width: 290px;
+    margin: 0px auto;
+    text-decoration: none;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+a:hover{
+    color: blue;
+    font-weight: bolder;
+    text-decoration: underline;
+}
