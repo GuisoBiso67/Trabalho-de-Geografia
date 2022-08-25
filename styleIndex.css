@@ -5,27 +5,12 @@
     --cor04: #EB6C84;
     --cor05: #9C0924;
     --cor06: #acacac;
+    --cor07: #1AACE8;
 }
 
+/*------------------------ MAIN ------------------------*/
 
-/* TESTE */
-div.teste{
-    display: inline-block;
-    margin: 10px;
-    background-color: var(--cor05);
-    height: 220px;
-    width: 220px;
-}
-
-div.teste2{
-    background-color: var(--cor03);
-    display: block;
-    margin: 0px auto;
-    height: 240px;
-    width: 1216px;
-}
-
-
+/* BRASIL */
 
 div#brasil{
     background-color: var(--cor06);
@@ -57,3 +42,38 @@ a.lugaresBrasil:hover{
     border-radius: 5px;
     color: var(--cor05);
 }
+
+/* INTERNACIONAL */
+
+div#internacional{
+    background-color: var(--cor06);
+    display: block;
+    margin: 0px auto;
+    height: 265px;
+    width: 1227px;
+    border-radius: 3px;
+}
+
+a.lugaresInternacionais{
+    display: inline-block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 23px;
+    margin: 10px;
+    height: 220px;
+    width: 220px;
+    border: 1px solid var(--cor06);
+}
+
+a.lugaresInternacionais > img{
+    border-radius: 5px;
+}
+
+a.lugaresInternacionais:hover{
+    border: 1px solid var(--cor05);
+    border-radius: 5px;
+    color: var(--cor05);
+}
+
+/*------------------------ MAIN ------------------------*/
