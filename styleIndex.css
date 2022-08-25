@@ -4,6 +4,7 @@
     --cor03: #E8DC02;
     --cor04: #EB6C84;
     --cor05: #9C0924;
+    --cor06: #acacac;
 }
 
 
@@ -20,6 +21,39 @@ div.teste2{
     background-color: var(--cor03);
     display: block;
     margin: 0px auto;
-    height: 300px;
+    height: 240px;
     width: 1216px;
+}
+
+
+
+div#brasil{
+    background-color: var(--cor06);
+    display: block;
+    margin: 0px auto;
+    height: 265px;
+    width: 1227px;
+    border-radius: 3px;
+}
+
+a.lugaresBrasil{
+    display: inline-block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 23px;
+    margin: 10px;
+    height: 220px;
+    width: 220px;
+    border: 1px solid var(--cor06);
+}
+
+a.lugaresBrasil > img{
+    border-radius: 5px;
+}
+
+a.lugaresBrasil:hover{
+    border: 1px solid var(--cor05);
+    border-radius: 5px;
+    color: var(--cor05);
 }
