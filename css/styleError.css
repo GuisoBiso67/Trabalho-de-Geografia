@@ -1,11 +1,21 @@
-div{
-    display: block;
-    width: 550px;
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
+
+
+body{
+    background-color: #747474;
+}
+
+h1{
+    text-align: center;
+    width: 955px;
+    font-family: 'Aboreto', cursive;
     margin: 0px auto;
 }
 
-div > h1{
-    text-align: center;
+img{
+    display: block;
+    width: 530px;
+    margin: 0px auto;
 }
 
 a{
