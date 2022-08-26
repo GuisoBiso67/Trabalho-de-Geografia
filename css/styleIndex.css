@@ -4,9 +4,11 @@
     --cor03: #E8DC02;
     --cor04: #EB6C84;
     --cor05: #9c09249c;
-    --cor06: #acacac;
+    --cor06: #7674f5;
     --cor07: #1AACE8;
     --cor08: #9C0924;
+    --cor09: #000033;
+    --cor10: #0f5672;
 }
 
 /*
@@ -29,7 +31,7 @@ CORES ORIGINAIS
 /*----------------------- HEADER -----------------------*/
 
 header{
-    background-color: var(--cor02);
+    background-image: linear-gradient(to bottom, var(--cor02), var(--cor07));
     height: 300px;
     color: white;
 }
@@ -70,10 +72,23 @@ h2{
 /*------------------------ MAIN ------------------------*/
 
 main{
-    background-color: var(--cor07);
+    background-image: linear-gradient(to bottom, var(--cor07), var(--cor07), var(--cor07), var(--cor10),var(--cor09), black 99%);
 }
 
 /* BRASIL */
+
+h3#tituloSessaoViagensBrasil{
+    font-size: 25px;
+    text-indent: 80px;
+    margin-bottom: 10px;
+}
+
+h3#tituloSessaoViagensInternacionais{
+    font-size: 25px;
+    text-indent: 80px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
 
 div#brasil{
     background-color: var(--cor06);
@@ -143,5 +158,8 @@ a.lugaresInternacionais:hover{
 
 /*------------------------ FOOTER ------------------------*/
 
+footer{
+    background-color: black;
+}
 
 /*------------------------ FOOTER ------------------------*/
