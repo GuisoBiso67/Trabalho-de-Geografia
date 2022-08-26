@@ -72,7 +72,7 @@ h2{
 /*------------------------ MAIN ------------------------*/
 
 main{
-    background-image: linear-gradient(to bottom, var(--cor07), var(--cor07), var(--cor07), var(--cor10),var(--cor09), black 99%);
+    background-image: linear-gradient(to bottom, var(--cor07), var(--cor07), var(--cor07), var(--cor10),var(--cor09));
 }
 
 /* BRASIL */
@@ -159,7 +159,48 @@ a.lugaresInternacionais:hover{
 /*------------------------ FOOTER ------------------------*/
 
 footer{
+    background-image: linear-gradient(to bottom, var(--cor09), black 40%);
+    padding-top: 50px;
     background-color: black;
+}
+
+ul{
+    width: 110px;
+}
+
+a.linksFooter > li{
+    width: 110px;
+}
+
+a.linksFooter{
+    width: 110px;
+    color: white;
+    text-decoration: none;
+}
+
+a.linksFooter:hover{
+    text-decoration: underline;
+}
+
+a#linkCreator{
+    color: white;
+    text-decoration: none;
+}
+
+a#linkCreator:hover{
+    text-decoration: overline;
+}
+
+p#creatorFooter{
+    color: white;
+    padding-bottom: 15px;
+    width: 273px;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+footer > p{
+    color: white;
 }
 
 /*------------------------ FOOTER ------------------------*/
