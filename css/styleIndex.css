@@ -19,6 +19,8 @@
     --cor09: #000033;
     --cor10: #0f5672;
     --cor11: #1a1a1a;
+    --cor12: white;
+    --cor13: black;
 
     --fonteTitulo: 'Aboreto', cursive;
     --fontePadrao: 'Dosis', sans-serif;
@@ -47,7 +49,7 @@ CORES ORIGINAIS
 header{
     background-image: linear-gradient(to bottom, var(--cor02), var(--cor07));
     height: 300px;
-    color: white;
+    color: var(--cor12);
 }
 
 nav#navHeader{
@@ -61,7 +63,7 @@ nav#navHeader > a{
     padding: 5px 10px 0px 10px;
     background-color: var(--cor05);
     margin: 0px 10px;
-    color: white;
+    color: var(--cor12);
     text-decoration: none;
     border-radius: 5px;
     font-family: var(--fonteLinks);
@@ -81,7 +83,7 @@ h1{
 h2{
     text-indent: 100px;
     font-size: 48px;
-    color: black;
+    color: var(--cor13);
     font-family: var(--fonteTitulo);
     text-shadow: -2px 2px 0px #0000005d;
     
@@ -119,12 +121,12 @@ div#brasil{
     height: 265px;
     width: 1227px;
     border-radius: 4px;
-    box-shadow: 0px 0px 3px 0px black;
+    box-shadow: 0px 0px 3px 0px var(--cor13);
 }
 
 a.lugaresBrasil{
     display: inline-block;
-    color: black;
+    color: var(--cor13);
     text-align: center;
     text-decoration: none;
     font-size: 23px;
@@ -146,6 +148,10 @@ a.lugaresBrasil:hover{
     color: var(--cor08);
 }
 
+a.lugaresBrasil:active{
+    color: var(--cor03);
+}
+
 /* INTERNACIONAL */
 
 div#internacional{
@@ -155,12 +161,12 @@ div#internacional{
     height: 265px;
     width: 1227px;
     border-radius: 4px;
-    box-shadow: 0px 0px 3px 0px black;
+    box-shadow: 0px 0px 3px 0px var(--cor13);
 }
 
 a.lugaresInternacionais{
     display: inline-block;
-    color: black;
+    color: var(--cor13);
     text-align: center;
     text-decoration: none;
     font-size: 23px;
@@ -182,14 +188,18 @@ a.lugaresInternacionais:hover{
     color: var(--cor08);
 }
 
+a.lugaresInternacionais:active{
+    color: var(--cor03);
+}
+
 /*------------------------ MAIN ------------------------*/
 
 /*------------------------ FOOTER ------------------------*/
 
 footer{
-    background-image: linear-gradient(to bottom, var(--cor09), black 40%);
+    background-image: linear-gradient(to bottom, var(--cor09), var(--cor13) 40%);
     padding-top: 50px;
-    background-color: black;
+    background-color: var(--cor13);
 }
 
 ul{
@@ -203,7 +213,7 @@ a.linksFooter > li{
 
 a.linksFooter{
     width: 110px;
-    color: white;
+    color: var(--cor12);
     text-decoration: none;
 }
 
@@ -211,27 +221,37 @@ a.linksFooter:hover{
     text-decoration: underline;
 }
 
+a.linksFooter:active{
+    color: var(--cor02);
+}
+
 a#linkCreator{
-    color: white;
+    color: var(--cor12);
     text-decoration: none;
     font-family: var(--fonteLinks);
+    font-weight: bold;
 }
 
 a#linkCreator:hover{
     text-decoration: overline;
+    color: var(--cor03);
+}
+
+a#linkCreator:active{
+    color: var(--cor02);
 }
 
 p#creatorFooter{
-    color: white;
+    color: var(--cor12);
     padding-bottom: 15px;
-    width: 273px;
+    width: 280px;
     margin-left: auto;
     margin-right: 20px;
     font-family: var(--fonteLinks);
 }
 
 footer > p{
-    color: white;
+    color: var(--cor12);
 }
 
 /*------------------------ FOOTER ------------------------*/
