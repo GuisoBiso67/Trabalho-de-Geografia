@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+/* font-family: 'Aboreto', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
+/* font-family: 'Dosis', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@100;200;300;400;500;600;700;800&display=swap');
+/* font-family: 'Anek Telugu', sans-serif; */
+
+div.dublin{
+    display: inline-block;
+    height: 300px;
+    width: 500px;
+    background-color: red;
+}
+
+div.galway{
+    display: inline-block;
+    height: 300px;
+    width: 500px;
+    background-color: red;
+}
+
+div.belfast{
+    display: inline-block;
+    height: 300px;
+    width: 500px;
+    background-color: red;
+}
