@@ -244,7 +244,7 @@ a#linkCreator:active{
 p#creatorFooter{
     color: var(--cor12);
     padding-bottom: 15px;
-    width: 280px;
+    width: 260px;
     margin-left: auto;
     margin-right: 20px;
     font-family: var(--fonteLinks);
