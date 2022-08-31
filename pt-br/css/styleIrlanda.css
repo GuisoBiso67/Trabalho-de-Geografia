@@ -21,6 +21,13 @@
     --cor08: blue;
     --cor09: #0a3d0f;
     --cor10: #00e013;
+    --cor11: white;
+    --cor12: #E8DC02;
+    --cor13: #02199c;
+
+    --fonteTitulo: 'Aboreto', cursive;
+    --fontePadrao: 'Dosis', sans-serif;
+    --fonteLinks: 'Anek Telugu', sans-serif;
 }
 
 *{
@@ -45,18 +52,18 @@ header{
 
 header > h1{
     text-align: center;
-    font-family: 'Aboreto', cursive;
+    font-family: var(--fonteTitulo);
     font-size: 40px;
     background-color: var(--cor09);
     width: 300px;
     margin: 0px auto;
-    color: white;
+    color: var(--cor11);
     border-radius: 50px;
 }
 
 header > p{
     text-indent: 30px;
-    font-family: 'Dosis', sans-serif;
+    font-family: var(--fontePadrao);
     text-align: center;
     font-size: 25px;
     font-weight: 500;
@@ -73,7 +80,7 @@ nav{
 header a{
     display: block;
     width: 57px;
-    font-family: 'Dosis', sans-serif;
+    font-family: var(--fontePadrao);
     font-size: 18px;
     font-weight: 500;
     text-decoration: none;
@@ -121,7 +128,7 @@ div.belfastImages{
 }
 
 h2{
-    font-family: 'Aboreto', cursive;
+    font-family: var(--fonteTitulo);
     font-size: 25px;
     text-align: center;
     margin-bottom: 5px;
@@ -129,7 +136,7 @@ h2{
 }
 
 p{
-    font-family: 'Dosis', sans-serif;
+    font-family: var(--fontePadrao);
     font-weight: 500;
     font-size: 20px;
     text-indent: 30px;
@@ -152,20 +159,85 @@ article#belfast > div.imagesMain{
 
 /*------------------------------- FOOTER -------------------------------*/
 
+footer{
+    background-color: var(--cor01);
+    width: 1300px;
+    margin: 0px auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px var(--cor06);
+}
+
+footer > ul a{
+    color: var(--cor11);
+    font-family: var(--fontePadrao);
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    border: 1px solid #00000000;
+    padding: 1px 5px;
+}
+
+footer > ul a:hover{
+    border: 1px solid var(--cor06);
+}
+
+footer > ul a:hover::before{
+    content: ' ➡';
+}
+
+footer > ul li{
+    padding: 5px;
+}
+
+
+
+
+
 a#returnButton{
     display: block;
-    width: 235px;
+    width: 265px;
     text-decoration: none;
+    margin-left: auto;
+    padding-top: 10px;
+    text-indent: 30px;
     color: var(--cor06);
-    font-family: 'Anek Telugu', sans-serif;
+    font-family: var(--fonteLinks);
     font-weight: bolder;
-    font-size: large;
+    font-size: 16px;
 }
 
 a#returnButton:hover{
-    color: var(--cor08);
+    color: var(--cor11);
     font-weight: bolder;
     text-decoration: underline;
+}
+
+a#linkCreator{
+    color: var(--cor11);
+    text-decoration: none;
+    font-family: var(--fonteLinks);
+    font-weight: bold;
+    font-size: 16px;
+}
+
+a#linkCreator:hover{
+    text-decoration: overline;
+    color: var(--cor12);
+}
+
+p#creatorFooter{
+    color: var(--cor11);
+    padding-bottom: 5px;
+    padding-top: 50px;
+    width: 285px;
+    margin: 0px auto;
+    font-family: var(--fonteLinks);
+    font-size: 16px;
+}
+
+footer > p{
+    color: var(--cor11);
+    font-size: 16px;
 }
 
 /*------------------------------- FOOTER -------------------------------*/
