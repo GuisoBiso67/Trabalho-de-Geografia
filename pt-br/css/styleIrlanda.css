@@ -7,23 +7,75 @@
 @import url('https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@100;200;300;400;500;600;700;800&display=swap');
 /* font-family: 'Anek Telugu', sans-serif; */
 
-div.dublin{
+:root{
+    --cor01: #00E014;
+    --cor02: #E06B00;
+    --cor03: #5B2BE0;
+    --cor04: #189423;
+    --cor05: #944700;
+}
+
+*{
+    margin: 0px;
+}
+
+body{
+    background-color: #189423;
+}
+
+/*------------------------------- HEADER -------------------------------*/
+
+header{
+    background-color: #00E014;
+}
+
+/*------------------------------- HEADER -------------------------------*/
+
+/*------------------------------- MAIN -------------------------------*/
+
+main{
+    background-color: #E06B00;
+}
+
+div.dublinImages{
     display: inline-block;
     height: 300px;
     width: 500px;
     background-color: red;
 }
 
-div.galway{
+div.galwayImages{
     display: inline-block;
     height: 300px;
     width: 500px;
     background-color: red;
 }
 
-div.belfast{
+div.belfastImages{
     display: inline-block;
     height: 300px;
     width: 500px;
     background-color: red;
 }
+
+/*------------------------------- MAIN -------------------------------*/
+
+/*------------------------------- FOOTER -------------------------------*/
+
+a#returnButton{
+    display: block;
+    width: 210px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bolder;
+    font-size: large;
+}
+
+a#returnButton:hover{
+    color: blue;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+/*------------------------------- FOOTER -------------------------------*/
