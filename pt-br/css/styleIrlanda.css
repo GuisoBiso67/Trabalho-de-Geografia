@@ -1,11 +1,14 @@
 @charset "UTF-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
-/* font-family: 'Aboreto', cursive; */
+/* font-family: 'Aboreto', cursive; 
+   Para Títulos */
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
-/* font-family: 'Dosis', sans-serif; */
+/* font-family: 'Dosis', sans-serif; 
+   Para Textos */
 @import url('https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@100;200;300;400;500;600;700;800&display=swap');
-/* font-family: 'Anek Telugu', sans-serif; */
+/* font-family: 'Anek Telugu', sans-serif; 
+   Para Links */
 
 :root{
     --cor01: #00E014;
@@ -13,6 +16,9 @@
     --cor03: #5B2BE0;
     --cor04: #189423;
     --cor05: #944700;
+    --cor06: black;
+    --cor07: #5b2be06b;
+    --cor08: blue;
 }
 
 *{
@@ -20,13 +26,52 @@
 }
 
 body{
-    background-color: #189423;
+    background-color: var(--cor04);
 }
 
 /*------------------------------- HEADER -------------------------------*/
 
 header{
-    background-color: #00E014;
+    background-color: var(--cor01);
+    width: 1300px;
+    margin: 0px auto;
+    border-radius: 3px;
+    padding-bottom: 4px;
+}
+
+header > h1{
+    text-align: center;
+    font-family: 'Aboreto', cursive;
+}
+
+header > p{
+    text-indent: 30px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 5px 0px;
+}
+
+nav{
+    display: block;
+    margin-left: 28px
+}
+
+header a{
+    display: block;
+    width: 57px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--cor06);
+    border-radius: 5px;
+    border: 1px solid var(--cor01);
+    padding: 2px;
+}
+
+header a:hover{
+    border: 1px solid var(--cor06);
 }
 
 /*------------------------------- HEADER -------------------------------*/
@@ -34,7 +79,7 @@ header{
 /*------------------------------- MAIN -------------------------------*/
 
 main{
-    background-color: #E06B00;
+    background-color: var(--cor02);
 }
 
 div.dublinImages{
@@ -64,16 +109,16 @@ div.belfastImages{
 
 a#returnButton{
     display: block;
-    width: 210px;
+    width: 235px;
     text-decoration: none;
-    color: black;
-    font-family: 'Dosis', sans-serif;
+    color: var(--cor06);
+    font-family: 'Anek Telugu', sans-serif;
     font-weight: bolder;
     font-size: large;
 }
 
 a#returnButton:hover{
-    color: blue;
+    color: var(--cor08);
     font-weight: bolder;
     text-decoration: underline;
 }
