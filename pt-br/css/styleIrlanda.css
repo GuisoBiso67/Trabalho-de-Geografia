@@ -61,6 +61,13 @@ header > h1{
     border-radius: 50px;
 }
 
+img#mapaIrlanda{
+    display: block;
+    margin: 10px auto;
+    width: 500px;
+    height: 300px;
+}
+
 header > p{
     text-indent: 30px;
     font-family: var(--fontePadrao);
@@ -188,10 +195,6 @@ footer > ul a:hover::before{
 footer > ul li{
     padding: 5px;
 }
-
-
-
-
 
 a#returnButton{
     display: block;
