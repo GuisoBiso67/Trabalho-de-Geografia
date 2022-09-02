@@ -105,7 +105,7 @@ footer > ul a{
     text-decoration: none;
     font-size: 16px;
     border: 1px solid #00000000;
-    padding: 1px 5px;
+    padding: 4px 5px 0px 5px;
 }
 
 footer > ul a:hover{
