@@ -39,9 +39,53 @@ body{
 }
 
 /*------------------------------- HEADER -------------------------------*/
+
+header{
+    background-color: var(--cor01);
+}
+
+h1{
+    font-family: var(--fonteTitulo);
+}
+
+header a{
+    font-family: var(--fontePadrao);
+}
+
 /*------------------------------- HEADER -------------------------------*/
 
 /*------------------------------- MAIN -------------------------------*/
+
+main{
+    background-color: var(--cor02);
+}
+
+h2{
+    font-family: var(--fonteTitulo);
+}
+
+h3{
+    font-family: var(--fonteTitulo);
+}
+
+p{
+    font-family: var(--fontePadrao);
+}
+
+div.img1{
+    display: inline-block;
+    height: 250px;
+    width: 400px;
+    background-color: red;
+}
+
+div.img2{
+    display: inline-block;
+    height: 250px;
+    width: 400px;
+    background-color: red;
+}
+
 /*------------------------------- MAIN -------------------------------*/
 
 /*------------------------------- FOOTER -------------------------------*/
@@ -56,7 +100,7 @@ footer{
 
 footer > ul a{
     color: var(--cor11);
-    font-family: var(--fontePadrao);
+    font-family: var(--fonteLinks);
     border-radius: 5px;
     text-decoration: none;
     font-size: 16px;
