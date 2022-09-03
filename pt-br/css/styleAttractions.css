@@ -96,18 +96,33 @@ header a:hover{
 
 main{
     background-color: var(--cor02);
+    width: 1100px;
+    margin: 10px auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px var(--cor06);
 }
 
 h2{
     font-family: var(--fonteTitulo);
+    text-align: center;
+    font-size: 28px;
+    padding-top: 30px;
 }
 
 h3{
     font-family: var(--fonteTitulo);
+    text-align: center;
+    font-size: 24px;
+    padding-top: 10px;
 }
 
 p{
     font-family: var(--fontePadrao);
+    text-indent: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    width: 1000px;
+    margin: 0px auto;
 }
 
 div.img1{
@@ -122,6 +137,30 @@ div.img2{
     height: 250px;
     width: 400px;
     background-color: red;
+}
+
+div.imagensMain{
+    display: block;
+    margin: 0px auto;
+    padding: 10px 0px;
+    width: 805px;
+}
+
+a.botaoParaCima{
+    display: block;
+    width: 96px;
+    text-decoration: none;
+    margin: 0px auto;
+    color: var(--cor06);
+    font-family: var(--fonteLinks);
+    font-weight: bolder;
+    font-size: 13px;
+}
+
+a.botaoParaCima:hover{
+    color: var(--cor11);
+    font-weight: bolder;
+    text-decoration: underline;
 }
 
 /*------------------------------- MAIN -------------------------------*/
