@@ -55,18 +55,29 @@ h1{
     text-align: center;
 }
 
-nav{
+div#alinharImagem_e_Nav{
     display: block;
     width: 700px;
-    margin-left: 28px;
     margin: 0px auto;
+}
+
+img#mapaHeader{
+    display: inline-block;
+    border-radius: 50%; 
+    margin: 20px auto 10px auto;
+}
+
+nav{
+    display: inline-block;
+    width: 95px;
+    vertical-align: 150px;
 }
 
 header a{
     display: block;
-    width: 85px;
+    width: 95px;
     font-family: var(--fontePadrao);
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
     text-decoration: none;
     color: var(--cor06);
