@@ -164,7 +164,7 @@ main p{
 
 div.imagesMain{
     display: block;
-    margin: 10px auto 40px auto;
+    margin: 10px auto 10px auto;
     width: 1004px;
 }
 
@@ -172,6 +172,22 @@ article#belfast > div.imagesMain{
     padding-bottom: 30px;
 }
 
+a.botaoParaCima{
+    display: block;
+    width: 96px;
+    text-decoration: none;
+    margin: 0px auto;
+    color: var(--cor06);
+    font-family: var(--fonteLinks);
+    font-weight: bolder;
+    font-size: 13px;
+}
+
+a.botaoParaCima:hover{
+    color: var(--cor11);
+    font-weight: bolder;
+    text-decoration: underline;
+}
 
 /*------------------------------- MAIN -------------------------------*/
 
