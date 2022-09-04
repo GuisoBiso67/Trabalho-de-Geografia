@@ -50,54 +50,32 @@ header{
     box-shadow: 0px 0px 10px 0px var(--cor06);
 }
 
-header > h1{
-    text-align: center;
+h1{
     font-family: var(--fonteTitulo);
-    font-size: 40px;
-    background-color: var(--cor09);
-    width: 300px;
-    margin: 0px auto;
-    color: var(--cor11);
-    border-radius: 50px;
+    text-align: center;
 }
 
-img#mapaIrlanda{
+div#alinharImagem_e_Nav{
     display: block;
-    margin: 10px auto;
-    width: 500px;
-    height: 300px;
-}
-
-p#chamadaHeader{
-    text-indent: 30px;
-    font-family: var(--fontePadrao);
-    text-align: center;
-    font-size: 25px;
-    font-weight: 500;
-    padding: 10px 0px 2px 0px;
-}
-
-p#infosIrlanda{
-    text-indent: 30px;
-    font-family: var(--fontePadrao);
-    text-align: center;
     width: 700px;
     margin: 0px auto;
-    font-size: 22px;
-    font-weight: 500;
-    padding: 20px 0px 10px 0px;
+}
+
+img#genericHotel{
+    display: inline-block;
+    border-radius: 50%; 
+    margin: 20px auto 10px auto;
 }
 
 nav{
-    display: block;
-    width: 613px;
-    margin-left: 28px;
-    margin: 0px auto;
+    display: inline-block;
+    width: 95px;
+    vertical-align: 125px;
 }
 
 header a{
     display: block;
-    width: 65px;
+    width: 95px;
     font-family: var(--fontePadrao);
     font-size: 20px;
     font-weight: 500;
@@ -124,52 +102,56 @@ main{
     box-shadow: 0px 0px 10px 0px var(--cor06);
 }
 
-div.dublinImages{
-    display: inline-block;
-    height: 250px;
-    width: 450px;
-    background-color: red;
-}
-
-div.galwayImages{
-    display: inline-block;
-    height: 250px;
-    width: 450px;
-    background-color: red;
-}
-
-div.belfastImages{
-    display: inline-block;
-    height: 250px;
-    width: 450px;
-    background-color: red;
-}
-
 h2{
     font-family: var(--fonteTitulo);
-    font-size: 25px;
     text-align: center;
-    margin-bottom: 5px;
+    font-size: 28px;
     padding-top: 30px;
 }
 
-main p{
+h3{
+    font-family: var(--fonteTitulo);
+    text-align: center;
+    font-size: 24px;
+    padding-top: 10px;
+}
+
+p{
     font-family: var(--fontePadrao);
-    font-weight: 500;
-    font-size: 20px;
     text-indent: 30px;
+    font-size: 20px;
+    font-weight: 500;
     width: 1000px;
     margin: 0px auto;
 }
 
-div.imagesMain{
-    display: block;
-    margin: 10px auto 10px auto;
-    width: 905px;
+div.img1{
+    display: inline-block;
+    height: 250px;
+    width: 400px;
+    background-color: red;
 }
 
-article#belfast > div.imagesMain{
-    padding-bottom: 30px;
+div.img2{
+    display: inline-block;
+    height: 250px;
+    width: 400px;
+    background-color: red;
+}
+
+div.imagensMain{
+    display: block;
+    margin: 0px auto;
+    padding: 10px 0px;
+    width: 805px;
+}
+
+div.img3{
+    display: block;
+    height: 250px;
+    width: 400px;
+    background-color: red;
+    margin: -10px auto 10px auto;
 }
 
 a.botaoParaCima{
