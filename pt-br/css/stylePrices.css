@@ -92,6 +92,13 @@ p#detalhes{
     text-align: center;
 }
 
+p#davi{
+    font-family: var(--fontePadrao);
+    font-size: 18px;
+    font-weight: 900;
+    text-align: center;
+}
+
 li#precoFinal{
     font-size: 28px;
     margin: 20px 0px;
