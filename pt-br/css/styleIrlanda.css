@@ -72,35 +72,48 @@ p#chamadaHeader{
     text-indent: 30px;
     font-family: var(--fontePadrao);
     text-align: center;
-    font-size: 25px;
+    font-size: 28px;
     font-weight: 500;
     padding: 10px 0px 2px 0px;
 }
 
-p#infosIrlanda{
+p.infosIrlanda{
     text-indent: 30px;
     font-family: var(--fontePadrao);
     text-align: center;
-    width: 700px;
+    width: 900px;
     margin: 0px auto;
     font-size: 22px;
     font-weight: 500;
-    padding: 20px 0px 10px 0px;
+    padding: 20px 0px 0px 0px;
+}
+
+a.linksTextos{
+    display: inline;
+    font-size: 22px;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--cor11);
+}
+
+a.linksTextos:hover{
+    text-decoration: underline;
 }
 
 nav{
     display: block;
-    width: 613px;
+    width: 240px;
     margin-left: 28px;
-    margin: 0px auto;
+    margin: 10px auto;
 }
 
-header a{
-    display: block;
+header a.navegacao{
+    display: inline;
     width: 65px;
     font-family: var(--fontePadrao);
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 500;
+    margin-left: 10px;
     text-decoration: none;
     color: var(--cor06);
     border-radius: 5px;
@@ -108,7 +121,7 @@ header a{
     padding: 2px;
 }
 
-header a:hover{
+header a.navegacao:hover{
     border: 1px solid var(--cor06);
 }
 
@@ -124,25 +137,25 @@ main{
     box-shadow: 0px 0px 10px 0px var(--cor06);
 }
 
-div.dublinImages{
+img.dublinImages{
     display: inline-block;
     height: 250px;
     width: 450px;
-    background-color: red;
+    margin: 5px;
 }
 
-div.galwayImages{
+img.galwayImages{
     display: inline-block;
     height: 250px;
     width: 450px;
-    background-color: red;
+    margin: 5px;
 }
 
-div.corkImages{
+img.corkImages{
     display: inline-block;
     height: 250px;
     width: 450px;
-    background-color: red;
+    margin: 5px;
 }
 
 h2{
@@ -178,7 +191,7 @@ main p{
 div.imagesMain{
     display: block;
     margin: 10px auto 10px auto;
-    width: 905px;
+    width: 925px;
 }
 
 article#cork > div.imagesMain{
