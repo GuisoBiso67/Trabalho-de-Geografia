@@ -26,13 +26,19 @@ body{
 
 h1{
     font-family: var(--fonteTitulo);
-    margin-top: 100px;
+    margin: 100px auto 10px auto;
     text-align: center;
+    color: yellow;
+    width: 670px;
+    background-color: black;
+    border-radius: 8px;
 }
 
 img{
     display: block;
     margin: 0px auto;
+    height: 300px;
+    width: 500px;
 }
 
 a{
@@ -44,7 +50,7 @@ a{
 a#backButton{
     display: block;
     width: 320px;
-    margin: 150px auto 0px auto;
+    margin: 90px auto 0px auto;
     font-size: 24px;
     font-family: var(--fonteLinks);
     text-decoration: none;
@@ -53,7 +59,7 @@ a#backButton{
 }
 
 a#backButton:hover{
-    color: white;
+    color: indigo;
     font-weight: bolder;
     text-decoration: underline;
 }
