@@ -138,7 +138,7 @@ div.galwayImages{
     background-color: red;
 }
 
-div.belfastImages{
+div.corkImages{
     display: inline-block;
     height: 250px;
     width: 450px;
@@ -168,7 +168,7 @@ div.imagesMain{
     width: 905px;
 }
 
-article#belfast > div.imagesMain{
+article#cork > div.imagesMain{
     padding-bottom: 30px;
 }
 
