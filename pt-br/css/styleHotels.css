@@ -51,8 +51,15 @@ header{
 }
 
 h1{
-    font-family: var(--fonteTitulo);
     text-align: center;
+    font-family: var(--fonteTitulo);
+    font-size: 35px;
+    background-color: var(--cor09);
+    width: 350px;
+    height: 50px;
+    margin: 0px auto;
+    color: var(--cor11);
+    border-radius: 50px;
 }
 
 div#alinharImagem_e_Nav{
