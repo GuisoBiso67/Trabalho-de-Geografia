@@ -61,7 +61,7 @@ li > a:hover{
 
 a#returnButton{
     display: block;
-    width: 265px;
+    width: 170px;
     text-decoration: none;
     margin-left: auto;
     padding-top: 10px;
@@ -93,7 +93,7 @@ a#linkCreator:hover{
 
 p#creatorFooter{
     color: var(--cor06);
-    width: 285px;
+    width: 287px;
     margin-left: auto;
     font-family: var(--fonteLinks);
     font-size: 16px;
