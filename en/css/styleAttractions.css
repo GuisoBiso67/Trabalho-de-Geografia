@@ -55,7 +55,7 @@ h1{
     font-family: var(--fonteTitulo);
     font-size: 35px;
     background-color: var(--cor09);
-    width: 900px;
+    width: 700px;
     height: 53px;
     margin: 0px auto;
     color: var(--cor11);
@@ -82,7 +82,7 @@ nav{
 
 header a{
     display: block;
-    width: 95px;
+    width: 85px;
     font-family: var(--fontePadrao);
     font-size: 20px;
     font-weight: 500;
@@ -174,7 +174,7 @@ img.img3{
 
 a.botaoParaCima{
     display: block;
-    width: 96px;
+    width: 70px;
     text-decoration: none;
     margin: 0px auto;
     color: var(--cor06);
@@ -225,7 +225,7 @@ footer > ul li{
 
 a#returnButton{
     display: block;
-    width: 265px;
+    width: 210px;
     text-decoration: none;
     margin-left: auto;
     padding-top: 10px;
@@ -259,7 +259,7 @@ p#creatorFooter{
     color: var(--cor11);
     padding-bottom: 5px;
     padding-top: 50px;
-    width: 285px;
+    width: 315px;
     margin: 0px auto;
     font-family: var(--fonteLinks);
     font-size: 16px;
