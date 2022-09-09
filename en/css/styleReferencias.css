@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+/* font-family: 'Aboreto', cursive; 
+   Para Títulos */
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
+/* font-family: 'Dosis', sans-serif; 
+   Para Textos */
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@100;200;300;400;500;600;700;800&display=swap');
+/* font-family: 'Anek Telugu', sans-serif; 
+   Para Links */
+
+:root{
+    --cor01: #00e01371;
+    --cor02: #E06B00;
+    --cor03: #5B2BE0;
+    --cor04: #189423;
+    --cor05: #944700;
+    --cor06: black;
+    --cor07: #5b2be06b;
+    --cor08: blue;
+    --cor09: #0a3d0f;
+    --cor10: #00e013;
+    --cor11: white;
+    --cor12: #E8DC02;
+    --cor13: #02199c;
+
+    --fonteTitulo: 'Aboreto', cursive;
+    --fontePadrao: 'Dosis', sans-serif;
+    --fonteLinks: 'Anek Telugu', sans-serif;
+}
+
+body{
+    background-color: var(--cor02);
+}
+
+h1{
+    font-family: var(--fonteTitulo);
+}
+
+h2{
+    font-family: var(--fonteTitulo);
+}
+
+li{
+    font-family: var(--fonteLinks);
+}
+
+li > a{
+    font-family: var(--fonteLinks);
+    color: var(--cor06);
+    text-decoration: none;
+}
+
+li > a:hover{
+    font-family: var(--fonteLinks);
+    color: var(--cor06);
+    text-decoration: underline;
+}
+
+
+a#returnButton{
+    display: block;
+    width: 265px;
+    text-decoration: none;
+    margin-left: auto;
+    padding-top: 10px;
+    text-indent: 30px;
+    color: var(--cor06);
+    font-family: var(--fonteLinks);
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+a#returnButton:hover{
+    color: var(--cor08);
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+a#linkCreator{
+    color: var(--cor06);
+    text-decoration: none;
+    font-family: var(--fonteLinks);
+    font-weight: bold;
+    font-size: 16px;
+}
+
+a#linkCreator:hover{
+    text-decoration: overline;
+    color: var(--cor08);
+}
+
+p#creatorFooter{
+    color: var(--cor06);
+    width: 285px;
+    margin-left: auto;
+    font-family: var(--fonteLinks);
+    font-size: 16px;
+}
