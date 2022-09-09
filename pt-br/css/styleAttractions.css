@@ -137,7 +137,7 @@ a.linksTextos{
     font-size: 20px;
     font-weight: 500;
     text-decoration: none;
-    color: var(--cor06);
+    color: var(--cor11);
 }
 
 a.linksTextos:hover{
