@@ -30,6 +30,10 @@
     --fonteLinks: 'Anek Telugu', sans-serif;
 }
 
+body{
+    background-color: var(--cor02);
+}
+
 h1{
     font-family: var(--fonteTitulo);
 }
