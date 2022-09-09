@@ -1,0 +1,299 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+/* font-family: 'Aboreto', cursive; 
+   Para Títulos */
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
+/* font-family: 'Dosis', sans-serif; 
+   Para Textos */
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@100;200;300;400;500;600;700;800&display=swap');
+/* font-family: 'Anek Telugu', sans-serif; 
+   Para Links */
+
+:root{
+    --cor01: #00e01371;
+    --cor02: #E06B00;
+    --cor03: #5B2BE0;
+    --cor04: #189423;
+    --cor05: #944700;
+    --cor06: black;
+    --cor07: #5b2be06b;
+    --cor08: blue;
+    --cor09: #0a3d0f;
+    --cor10: #00e013;
+    --cor11: white;
+    --cor12: #E8DC02;
+    --cor13: #02199c;
+
+    --fonteTitulo: 'Aboreto', cursive;
+    --fontePadrao: 'Dosis', sans-serif;
+    --fonteLinks: 'Anek Telugu', sans-serif;
+}
+
+*{
+    margin: 0px;
+}
+
+body{
+    background-image: linear-gradient(to bottom, var(--cor04), var(--cor09));
+}
+
+/*------------------------------- HEADER -------------------------------*/
+
+header{
+    background-color: var(--cor01);
+    width: 1200px;
+    margin: 5px auto;
+    border-radius: 10px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    box-shadow: 0px 0px 10px 0px var(--cor06);
+}
+
+header > h1{
+    text-align: center;
+    font-family: var(--fonteTitulo);
+    font-size: 40px;
+    background-color: var(--cor09);
+    width: 300px;
+    margin: 0px auto;
+    color: var(--cor11);
+    border-radius: 50px;
+}
+
+img#mapaIrlanda{
+    display: block;
+    margin: 10px auto;
+    width: 500px;
+    height: 300px;
+}
+
+p#chamadaHeader{
+    text-indent: 30px;
+    font-family: var(--fontePadrao);
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+    padding: 10px 0px 2px 0px;
+}
+
+p.infosIrlanda{
+    text-indent: 30px;
+    font-family: var(--fontePadrao);
+    text-align: center;
+    width: 900px;
+    margin: 0px auto;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 20px 0px 0px 0px;
+}
+
+nav{
+    display: block;
+    width: 240px;
+    margin-left: 28px;
+    margin: 10px auto;
+}
+
+header a.navegacao{
+    display: inline;
+    width: 65px;
+    font-family: var(--fontePadrao);
+    font-size: 22px;
+    font-weight: 500;
+    margin-left: 10px;
+    text-decoration: none;
+    color: var(--cor06);
+    border-radius: 5px;
+    border: 1px solid #00000000;
+    padding: 2px;
+}
+
+header a.navegacao:hover{
+    border: 1px solid var(--cor06);
+}
+
+/*------------------------------- HEADER -------------------------------*/
+
+/*------------------------------- MAIN -------------------------------*/
+
+main{
+    background-color: var(--cor02);
+    width: 1100px;
+    margin: 10px auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px var(--cor06);
+}
+
+img.dublinImages{
+    display: inline-block;
+    height: 250px;
+    width: 450px;
+    margin: 5px;
+}
+
+img.galwayImages{
+    display: inline-block;
+    height: 250px;
+    width: 450px;
+    margin: 5px;
+}
+
+img.corkImages{
+    display: inline-block;
+    height: 250px;
+    width: 450px;
+    margin: 5px;
+}
+
+h2{
+    font-family: var(--fonteTitulo);
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 5px;
+    padding-top: 30px;
+}
+
+h3{
+    font-family: var(--fonteTitulo);
+    font-size: 20px;
+    text-align: center;
+}
+
+h4{
+    font-family: var(--fonteTitulo);
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+a.linksTextos{
+    display: inline;
+    font-size: 22px;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--cor11);
+}
+
+a.linksTextos:hover{
+    text-decoration: underline;
+}
+
+main p{
+    font-family: var(--fontePadrao);
+    font-weight: 500;
+    font-size: 20px;
+    text-indent: 30px;
+    width: 1000px;
+    margin: 0px auto;
+}
+
+div.imagesMain{
+    display: block;
+    margin: 10px auto 10px auto;
+    width: 925px;
+}
+
+article#cork > div.imagesMain{
+    padding-bottom: 30px;
+}
+
+a.botaoParaCima{
+    display: block;
+    width: 96px;
+    text-decoration: none;
+    margin: 0px auto;
+    color: var(--cor06);
+    font-family: var(--fonteLinks);
+    font-weight: bolder;
+    font-size: 13px;
+}
+
+a.botaoParaCima:hover{
+    color: var(--cor11);
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+/*------------------------------- MAIN -------------------------------*/
+
+/*------------------------------- FOOTER -------------------------------*/
+
+footer{
+    background-color: var(--cor01);
+    width: 1300px;
+    margin: 0px auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px var(--cor06);
+}
+
+footer > ul a{
+    color: var(--cor11);
+    font-family: var(--fonteLinks);
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    border: 1px solid #00000000;
+    padding: 4px 5px 0px 5px;
+}
+
+footer > ul a:hover{
+    border: 1px solid var(--cor06);
+}
+
+footer > ul a:hover::before{
+    content: ' ➡';
+}
+
+footer > ul li{
+    padding: 5px;
+}
+
+a#returnButton{
+    display: block;
+    width: 265px;
+    text-decoration: none;
+    margin-left: auto;
+    padding-top: 10px;
+    text-indent: 30px;
+    color: var(--cor06);
+    font-family: var(--fonteLinks);
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+a#returnButton:hover{
+    color: var(--cor11);
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+a#linkCreator{
+    color: var(--cor11);
+    text-decoration: none;
+    font-family: var(--fonteLinks);
+    font-weight: bold;
+    font-size: 16px;
+}
+
+a#linkCreator:hover{
+    text-decoration: overline;
+    color: var(--cor12);
+}
+
+p#creatorFooter{
+    color: var(--cor11);
+    padding-bottom: 5px;
+    padding-top: 50px;
+    width: 285px;
+    margin: 0px auto;
+    font-family: var(--fonteLinks);
+    font-size: 16px;
+}
+
+footer > p{
+    color: var(--cor11);
+    font-size: 16px;
+}
+
+/*------------------------------- FOOTER -------------------------------*/

@@ -1,0 +1,237 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+/* font-family: 'Aboreto', cursive; 
+   Para Títulos */
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
+/* font-family: 'Dosis', sans-serif; 
+   Para Textos */
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@100;200;300;400;500;600;700;800&display=swap');
+/* font-family: 'Anek Telugu', sans-serif; 
+   Para Links */
+
+:root{
+    --cor01: #00e01371;
+    --cor02: #E06B00;
+    --cor03: #5B2BE0;
+    --cor04: #189423;
+    --cor05: #944700;
+    --cor06: black;
+    --cor07: #5b2be06b;
+    --cor08: blue;
+    --cor09: #0a3d0f;
+    --cor10: #00e013;
+    --cor11: white;
+    --cor12: #E8DC02;
+    --cor13: #02199c;
+
+    --fonteTitulo: 'Aboreto', cursive;
+    --fontePadrao: 'Dosis', sans-serif;
+    --fonteLinks: 'Anek Telugu', sans-serif;
+}
+
+*{
+    margin: 0px;
+}
+
+body{
+    background-image: linear-gradient(to bottom, var(--cor04), var(--cor09));
+}
+
+/*------------------------------- HEADER -------------------------------*/
+
+header{
+    background-color: var(--cor01);
+    width: 500px;
+    margin: 5px auto;
+    border-radius: 10px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    box-shadow: 0px 0px 10px 0px var(--cor06);
+}
+
+h1{
+    text-align: center;
+    font-family: var(--fonteTitulo);
+}
+
+/*------------------------------- HEADER -------------------------------*/
+
+/*------------------------------- MAIN -------------------------------*/
+
+main{
+    background-color: var(--cor05);
+    width: 800px;
+    margin: 10px auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px var(--cor06);
+    padding-bottom: 10px;
+}
+
+ul#listaGeral{
+    display: block;
+    margin: 10px auto;
+    width: 530px;
+    padding: 10px 0px 0px 0px;
+}
+
+main li{
+    font-family: var(--fontePadrao);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+main li::before{
+    content: '-';
+}
+
+p#detalhes{
+    font-family: var(--fontePadrao);
+    font-size: 18px;
+    font-weight: 900;
+    text-align: center;
+}
+
+p#davi{
+    font-family: var(--fontePadrao);
+    font-size: 18px;
+    font-weight: 900;
+    text-align: center;
+}
+
+li#precoFinal{
+    font-size: 28px;
+    margin: 20px 0px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+li#precoFinal::before{
+    content: '';
+}
+
+main a.linkRestaurantes{
+    color: var(--cor06);
+    font-family: var(--fontePadrao);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 4px 5px 0px 5px;
+}
+
+main a.linkRestaurantes:hover{
+    color: white;
+}
+
+main a#pdf{
+    color: var(--cor06);
+    font-family: var(--fontePadrao);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 4px 5px 0px 5px;
+}
+
+main a#pdf:hover{
+    color: white;
+}
+
+a#linkPagar{
+    display: block;
+    text-align: center;
+    width: 300px;
+    color: var(--cor06);
+    background-color: var(--cor03);
+    border-radius: 10px;
+    height: 38px;
+    margin: 10px auto 0px auto;
+    font-size: 32px;
+    font-weight: 900;
+    font-family: var(--fonteTitulo);
+    text-decoration: none;
+}
+
+a#linkPagar:hover{
+    background-color: white;
+}
+
+/*------------------------------- MAIN -------------------------------*/
+
+/*------------------------------- FOOTER -------------------------------*/
+
+footer{
+    background-color: var(--cor01);
+    width: 1300px;
+    margin: 0px auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px var(--cor06);
+}
+
+footer > ul a{
+    color: var(--cor11);
+    font-family: var(--fonteLinks);
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    border: 1px solid #00000000;
+    padding: 4px 5px 0px 5px;
+}
+
+footer > ul a:hover{
+    border: 1px solid var(--cor06);
+}
+
+footer > ul a:hover::before{
+    content: ' ➡';
+}
+
+footer > ul li{
+    padding: 5px;
+}
+
+a#returnButton{
+    display: block;
+    width: 265px;
+    text-decoration: none;
+    margin-left: auto;
+    padding-top: 10px;
+    text-indent: 30px;
+    color: var(--cor06);
+    font-family: var(--fonteLinks);
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+a#returnButton:hover{
+    color: var(--cor11);
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+a#linkCreator{
+    color: var(--cor11);
+    text-decoration: none;
+    font-family: var(--fonteLinks);
+    font-weight: bold;
+    font-size: 16px;
+}
+
+a#linkCreator:hover{
+    text-decoration: overline;
+    color: var(--cor12);
+}
+
+p#creatorFooter{
+    color: var(--cor11);
+    padding-bottom: 5px;
+    padding-top: 50px;
+    width: 285px;
+    margin: 0px auto;
+    font-family: var(--fonteLinks);
+    font-size: 16px;
+}
+
+footer > p{
+    color: var(--cor11);
+    font-size: 16px;
+}
+
+/*------------------------------- FOOTER -------------------------------*/
