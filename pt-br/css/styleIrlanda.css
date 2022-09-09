@@ -88,18 +88,6 @@ p.infosIrlanda{
     padding: 20px 0px 0px 0px;
 }
 
-a.linksTextos{
-    display: inline;
-    font-size: 22px;
-    font-weight: 500;
-    text-decoration: none;
-    color: var(--cor11);
-}
-
-a.linksTextos:hover{
-    text-decoration: underline;
-}
-
 nav{
     display: block;
     width: 240px;
@@ -177,6 +165,18 @@ h4{
     font-size: 20px;
     text-align: center;
     padding-bottom: 5px;
+}
+
+a.linksTextos{
+    display: inline;
+    font-size: 22px;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--cor11);
+}
+
+a.linksTextos:hover{
+    text-decoration: underline;
 }
 
 main p{

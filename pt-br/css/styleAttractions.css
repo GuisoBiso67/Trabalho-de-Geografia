@@ -132,33 +132,44 @@ p{
     margin: 0px auto;
 }
 
-div.img1{
-    display: inline-block;
-    height: 250px;
-    width: 400px;
-    background-color: red;
+a.linksTextos{
+    display: inline;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--cor06);
 }
 
-div.img2{
+a.linksTextos:hover{
+    text-decoration: underline;
+}
+
+img.img1{
     display: inline-block;
     height: 250px;
     width: 400px;
-    background-color: red;
+    margin: 5px;
+}
+
+img.img2{
+    display: inline-block;
+    height: 250px;
+    width: 400px;
+    margin: 5px;
 }
 
 div.imagensMain{
     display: block;
     margin: 0px auto;
     padding: 10px 0px;
-    width: 805px;
+    width: 825px;
 }
 
-div.img3{
+img.img3{
     display: block;
     height: 250px;
     width: 400px;
-    background-color: red;
-    margin: -10px auto 10px auto;
+    margin: 0px auto 10px auto;
 }
 
 a.botaoParaCima{
