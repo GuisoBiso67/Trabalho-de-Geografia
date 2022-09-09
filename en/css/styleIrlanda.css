@@ -200,7 +200,7 @@ article#cork > div.imagesMain{
 
 a.botaoParaCima{
     display: block;
-    width: 96px;
+    width: 70px;
     text-decoration: none;
     margin: 0px auto;
     color: var(--cor06);
@@ -251,7 +251,7 @@ footer > ul li{
 
 a#returnButton{
     display: block;
-    width: 265px;
+    width: 210px;
     text-decoration: none;
     margin-left: auto;
     padding-top: 10px;
