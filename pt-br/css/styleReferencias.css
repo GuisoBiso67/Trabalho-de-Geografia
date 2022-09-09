@@ -69,7 +69,7 @@ a#returnButton{
 }
 
 a#returnButton:hover{
-    color: var(--cor12);
+    color: var(--cor08);
     font-weight: bolder;
     text-decoration: underline;
 }
@@ -84,7 +84,7 @@ a#linkCreator{
 
 a#linkCreator:hover{
     text-decoration: overline;
-    color: var(--cor12);
+    color: var(--cor08);
 }
 
 p#creatorFooter{
