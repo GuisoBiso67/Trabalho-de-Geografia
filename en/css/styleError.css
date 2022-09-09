@@ -9,7 +9,7 @@ body{
 
 h1{
     text-align: center;
-    width: 955px;
+    width: 985px;
     font-family: 'Aboreto', cursive;
     margin: 0px auto;
 }
@@ -22,8 +22,8 @@ img{
 
 a{
     display: block;
-    width: 165px;
-    margin: 0px auto;
+    width: 290px;
+    margin: -10px auto;
     text-decoration: none;
     color: black;
     font-family: 'Courier New', Courier, monospace;
