@@ -79,6 +79,7 @@ main li{
     font-family: var(--fontePadrao);
     font-size: 20px;
     font-weight: 500;
+    color: var(--cor11);
 }
 
 main li::before{
@@ -90,6 +91,7 @@ p#detalhes{
     font-size: 18px;
     font-weight: 900;
     text-align: center;
+    color: var(--cor11);
 }
 
 p#davi{
@@ -97,6 +99,7 @@ p#davi{
     font-size: 18px;
     font-weight: 900;
     text-align: center;
+    color: var(--cor11);
 }
 
 li#precoFinal{
@@ -111,7 +114,7 @@ li#precoFinal::before{
 }
 
 main a.linkRestaurantes{
-    color: var(--cor06);
+    color: var(--cor11);
     font-family: var(--fontePadrao);
     text-decoration: none;
     font-size: 18px;
@@ -119,11 +122,11 @@ main a.linkRestaurantes{
 }
 
 main a.linkRestaurantes:hover{
-    color: white;
+    color: var(--cor06);
 }
 
 main a#pdf{
-    color: var(--cor06);
+    color: var(--cor11);
     font-family: var(--fontePadrao);
     text-decoration: none;
     font-size: 18px;
@@ -131,7 +134,7 @@ main a#pdf{
 }
 
 main a#pdf:hover{
-    color: white;
+    color: var(--cor06);
 }
 
 a#linkPagar{
