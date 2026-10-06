@@ -1,6 +1,6 @@
 # ✈️ GranTurismo.com: Trabalho de Geografia
 
-Site de uma agência de turismo fictícia, desenvolvido para um trabalho de **Geografia do 2º ano do Ensino Médio**. O roteiro apresentado é uma viagem de 7 dias pela **Irlanda**, passando por **Dublin, Galway e Cork**. O trabalho foi realizado em grupo, mas **todo o site foi desenvolvido inteiramente por mim**.
+Site de uma agência de turismo fictícia, desenvolvido para um trabalho de **Geografia do 2º ano do Ensino Médio**. O roteiro apresentado é uma viagem de 7 dias pela **Irlanda**, passando por **Dublin, Galway e Cork**. O trabalho foi realizado em grupo e toda a parte de pesquisa e relatórios foi feita pelos outros integrantes,porém **o site foi desenvolvido inteiramente por mim**.
 
 ## 🌍 Idiomas
 
